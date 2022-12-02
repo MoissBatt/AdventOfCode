@@ -5,22 +5,23 @@ import java.io.File;
 import java.io.IOException;
 import java.net.URISyntaxException;
 import java.net.URL;
+import java.util.ArrayList;
 
 public class FileReader {
-    public BufferedReader fileReader(String filename)  {
+    public ArrayList<String> fileReader(String filename) {
         try {
             File file;
             URL resource = getClass().getClassLoader().getResource(filename);
-            if (resource == null) {
-                throw new IllegalArgumentException("file not found!");
-            } else {
-                file = new File(resource.toURI());
-            }
+            file = new File(resource.toURI());
+
             BufferedReader br = new BufferedReader(new java.io.FileReader(file));
-            return br;
-        }catch(IOException e) {
-            System.out.printf(e.getMessage());
-        } catch(URISyntaxException e){
+            String line;
+            ArrayList<String> input = new ArrayList<>();
+            while ((line = br.readLine()) != null) {
+                input.add(line);
+            }
+            return input;
+        } catch (IOException | URISyntaxException e) {
             System.out.printf(e.getMessage());
         }
         return null;
