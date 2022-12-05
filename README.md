@@ -2,8 +2,8 @@
 
 ## What is that ?
 This project is a java playground to achieve the [Advent of Code](https://adventofcode.com/) ! 
-I don't know if I will have time to do it every day with my work and personnal life but I will try my best.
-I don't seek perfection but I like to code clean. If you want to advise me on some questionnable practise, I will be greatful to read them.
+I don't know if I will have time to do it every day with my work and personnal life, but I will try my best.
+I don't seek perfection, but I like to code clean. If you want to advise me on some questionnable practise, I will be greatful to read them.
 
 ## Run it
 So far it is a simple project. Download it, open it and execute it in your favorite IDE.
