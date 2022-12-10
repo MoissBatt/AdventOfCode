@@ -21,4 +21,4 @@ Only me
 
 | Year | Stars                                                                                                                                                                                                                    |
 | ---- |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 2022 | :star2: :star2: :star2: :star2: :star2: :star2: :star2: :star2: :star2: :clock1: :clock1: :clock1: :clock1: :clock1: :clock1: :clock1: :clock1: :clock1: :clock1: :clock1: :clock1: :clock1: :clock1: :clock1: :clock1: |
+| 2022 | :star2: :star2: :star2: :star2: :star2: :star2: :star2: :star2: :star2: :star2: :clock1: :clock1: :clock1: :clock1: :clock1: :clock1: :clock1: :clock1: :clock1: :clock1: :clock1: :clock1: :clock1: :clock1: :clock1: |
